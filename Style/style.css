@@ -87,7 +87,7 @@ a {
 }
 
 .plant-section-heading {
-  font-size: 2rem;
+  font-size: 50px;
   color:rgba(0, 0, 0, 1);
   margin-bottom: 0.5rem;
 }
@@ -171,20 +171,19 @@ span{
 .flower-image-section img {
   width: auto;
   height: 50%;
-  /* position: relative; */
-    /* z-index: 3;   */
+  
 }
 
 .badge {
   position: absolute;
-  top: -10%;         /* slightly above the image */
-  right: 25%;       /* slightly outside the image */
+  top: -12%;         /* slightly above the image */
+  right: 10%;       /* slightly outside the image */
   width: 100px;
    z-index: 10; 
 }
 
 .badge img {
-  width: 150%;
+  width: 200%;
   height: auto;
   display: block;
 }
@@ -210,15 +209,15 @@ span{
       color: #555;
       line-height: 1.6;
     }
-/* Details Sections */
+/* Deals Sections */
 
 .deals-section {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
 .deals-header h1 {
-  font-size: 36px;
+  font-size: 50px;
   margin: 0;
 }
 
@@ -236,15 +235,20 @@ span{
 }
 
 .deals-container {
+  width: auto;
+  height: 50%;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
+
 }
 
 .left-deals {
+  width: auto;
+  height: 50%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
 }
 
 .deal-card {
@@ -256,8 +260,10 @@ span{
 .deal-card img {
   width: 250px;
   height: 150px;
-  object-fit: cover;
+  object-fit: cover; 
   display: block;
+  padding: 5px;
+  border-radius: 12px;
 }
 
 .right-deal {
@@ -267,10 +273,11 @@ span{
 }
 
 .right-deal img {
-  width: 400px;
-  height: 320px;
+  width: 600px;
+  height: 300px;
   object-fit: cover;
-  display: block;
+  border-radius: 12px;
+  /* display: block; */
 }
 
 /* Text overlay */
@@ -278,6 +285,12 @@ span{
   position: absolute;
   bottom: 20px;
   left: 20px;
+  color: #fff;
+}
+.deal-text-2{
+  position:relative;
+  bottom: 200px;
+  left: 45px;
   color: #fff;
 }
 
@@ -294,16 +307,14 @@ span{
   padding: 5px 10px;
   font-size: 14px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s;
 }
 
-.deal-text a:hover {
-  background-color: #ff6600;
-}
+
+
 /* Here -Footer Section */
 .hero-footer {
   background: url('../images/news-letter-bg.png') center/cover no-repeat;
