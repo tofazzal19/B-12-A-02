@@ -318,7 +318,7 @@ span{
 /* Here -Footer Section */
 .hero-footer {
   background: url('../images/news-letter-bg.png') center/cover no-repeat;
-  height: 350px;
+  height: 530px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,15 +326,14 @@ span{
   position: relative;
 }
 
-.hero-footer .overlay {
-  background: rgba(0, 0, 0, 0.3);
+.hero-footer {
   padding: 20px;
   border-radius: 8px;
 }
 
 .hero-footer h1 {
   color: #fff;
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
@@ -349,7 +348,7 @@ span{
   padding: 10px 15px;
   border: none;
   outline: none;
-  width: 250px;
+  width: 550px;
   border-radius: 4px 0 0 4px;
   font-size: 16px;
 }
@@ -372,70 +371,69 @@ span{
 
 /* Footer Section */
 .footer {
-  background: #fff;
-  padding: 40px 80px;
+  background-color: #f5f7fa;
+  padding: 40px 20px;
+  border-top: 1px solid #e0e0e0;
 }
 
-.footer-content {
+.footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
 }
 
 .footer-left {
-  flex: 1;
+  flex: 1 1 200px;
 }
 
 .footer-left .logo {
-  height: 40px;
+  width: 120px;
   margin-bottom: 10px;
 }
 
 .footer-left p {
-  max-width: 220px;
   color: #555;
-  line-height: 1.5;
+  font-size: 22px;
+  line-height: 1.6;
+  max-width: 250px;
 }
 
 .footer-links {
   display: flex;
-  gap: 40px;
+  gap: 200px;
+  flex: 2 1 300px;
 }
 
-.footer-column h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #000;
-}
-
-.footer-column p {
-  margin: 5px 0;
-  color: #666;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.footer-column p:hover {
-  color: #ff6600;
-}
-
-.footer-social {
+.link-column {
   display: flex;
-  gap: 15px;
-  font-size: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-column a {
+  text-decoration: none;
   color: #333;
-  margin-top: 10px;
+  font-size: 20px;
 }
 
-.footer-social i {
-  cursor: pointer;
-  transition: color 0.3s;
+.link-column a:hover {
+  text-decoration: underline;
 }
 
-.footer-social i:hover {
-  color: #ff6600;
+.footer-icons {
+  display: flex;
+  align-items: start;
+  gap: 20px;
 }
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+}
+
 
 
 
