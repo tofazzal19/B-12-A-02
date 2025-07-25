@@ -209,6 +209,107 @@ span{
       color: #555;
       line-height: 1.6;
     }
+    /* Details Sections */
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fc;
+}
+
+.deals-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.deals-header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.deals-header .highlight {
+  color: #ff6600;
+  font-weight: 700;
+}
+
+.deals-header p {
+  max-width: 600px;
+  margin: 10px auto 30px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.deals-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.deal-card img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.right-deal {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.right-deal img {
+  width: 400px;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text overlay */
+.deal-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.deal-text h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.deal-text a {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.deal-text a:hover {
+  background-color: #ff6600;
+}
+
 
     /* Optional: Responsive */
     @media (max-width: 768px) {
