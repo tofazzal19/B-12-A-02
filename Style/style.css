@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #F5F8FF;
   color: #333;
 }
 
@@ -51,6 +51,35 @@ a {
     width: 22px;
     height: 15px;
 }
+/* === HERO SECTION === */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 20rem;
+  color:  #F5F8FF; 
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 1rem;
+}
+
+.hero h2 span {
+
+  font-weight: bold;
+  color: #E95A08;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1rem;
+  color: #555;
+
+}
+
 
 @media (max-width: 768px) {
   .nav-menu {
